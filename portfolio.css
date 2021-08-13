@@ -1,0 +1,63 @@
+header{display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: 15px;
+}
+
+.nav{display: flex;
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+
+}
+
+.left{display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "m m" "e s";
+    gap: 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.me{grid-area: m;
+   padding: 20px;
+}
+
+.experience{grid-area: e;padding: 20px;
+}
+
+.skill{grid-area: s;padding: 20px;
+    }
+
+button{border-radius: 10px;}
+
+.mee{color: dodgerblue;}
+
+.sr{font-weight: bold;}
+
+.ex{font-weight: bold;}
+
+.it{font-weight: bold;}
+
+.teo{font-weight: bold;}
+
+.ci{font-weight: bold;}
+
+
+
+   
+
+
+
+
+
+
